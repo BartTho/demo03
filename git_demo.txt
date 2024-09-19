@@ -1,0 +1,71 @@
+    1  clear
+    2  sudo apt update && sudo apt upgrade && sudo apt upgrade-distro
+    3  exit
+    4  poweroff
+    5  ip add
+    6  sudo nano /etc/netplan/50-cloud-init.yaml 
+    7  sudo apt install nano
+    8  sudo nano /etc/netplan/50-cloud-init.yaml 
+    9  sudo poweroff
+   10  clear
+   11  ls -l
+   12  ls /etc
+   13  clear
+   14  ls
+   15  mkdir -p /DevOps/git/demo02
+   16  mkdir -p DevOps/git/demo02
+   17  cd DevOps/git/
+   18  cd demo02/
+   19  clear
+   20  ip add
+   21  touch test
+   22  ls
+   23  clearr
+   24  clear
+   25  git --version
+   26  sudo apt install git
+   27  cleaer
+   28  clear
+   29  git --version
+   30  git init
+   31  git config --global user.name "Bart Thonissen"
+   32  git config --global user.email "bart.thonissen@thomasmore.be"
+   33  cd .git/
+   34  ls
+   35  cd ..
+   36  git config --list
+   37  git config -e
+   38  clear
+   39  git remote add origin https://github.com/BartTho/dinsdag_donderdag.git
+   40  git pull origin master
+   41  touch voorbeeld.txt
+   42  git add voorbeeld.txt 
+   43  git status
+   44  git commit -m "De initiele commit"
+   45  git status
+   46  nano voorbeeld.txt 
+   47  git status
+   48  git commit -m "Voorbeeld is aangepast"
+   49  git status
+   50  git commit -m "Voorbeeld is aangepast"
+   51  git add *
+   52  git commit -m "Voorbeeld is aangepast"
+   53  git status
+   54  git log
+   55  clear
+   56  git push origin master
+   57  clear
+   58  sudo apt install gh
+   59  clearr
+   60  clear
+   61  gh auth login
+   62  git push origin master
+   63  clear
+   64  git pull
+   65  git pull origin master
+   66  cat voorbeeld.txt a
+   67  cat voorbeeld.txt 
+   68  cd ..
+   69  mkdir demo03
+   70  clear
+   71  history > git_demo.txt
